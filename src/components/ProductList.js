@@ -137,14 +137,14 @@ function ProductList({buyProduct,setBuyProduct}) {
         buyProduct={buyProduct}
         filterBuyProduct={filterBuyProduct}
       />
-      <div className='d-flex flex-row justify-content-between'>
+      <div className='d-flex flex-row justify-content-center'>
 
-        <div style={{ width: "20%" }} className="p-2  my-4">Image</div>
-        <div style={{ width: "10%" }} className="p-2  my-4">Name</div>
-        <div style={{ width: "10%" }} className="p-2  my-4">Color</div>
-        <div style={{ width: "10%" }} className="p-2  my-4">Stock</div>
-        <div style={{ width: "10%" }} className="p-2  my-4">Price</div>
-        <div style={{ width: "40%" }} className="p-2  my-4">Buy</div>
+        <div style={{ width: "20%",textAlign:"center",fontWeight:'bold' }} className="p-2  my-4">Image</div>
+        <div style={{ width: "10%",textAlign:"center",fontWeight:'bold' }} className="p-2  my-4">Name</div>
+        <div style={{ width: "10%",textAlign:"center",fontWeight:'bold' }} className="p-2  my-4">Color</div>
+        <div style={{ width: "10%",textAlign:"center",fontWeight:'bold' }} className="p-2  my-4">Stock</div>
+        <div style={{ width: "10%",textAlign:"center" ,fontWeight:'bold' }} className="p-2  my-4">Price</div>
+        <div style={{ width: "40%" ,fontWeight:'bold' }} className="p-2  my-4"><span style={{marginLeft:"65%"}}>Buy</span></div>
       </div>
       <hr />
       {

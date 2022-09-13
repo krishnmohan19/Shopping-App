@@ -10,7 +10,9 @@ img {
   max-width:120px;
   height: 120px;
 }
-
+*{
+  box-sizing: border-box!important;
+}
 .material-symbols-outlined {
   color: white;
   height: 37px;
